@@ -1,0 +1,192 @@
+.navbar {
+	background-color:#E6C767 !important;
+}
+
+.nav-link, .navbar-brand {
+	color: #ffffff;
+}
+
+.nav-link:hover {
+	Color: #000000;
+}
+
+.about-section {
+	background-color: #000B58;
+	color: white;
+	padding: 50px;
+	text-align: center;
+}
+
+body {
+	font-family: Tahoma, sans-serif, Arial, Helvetica;
+	font-size: 16px;
+	min-height: 100vh;
+	background-color: #080829;
+	margin: 0;
+}
+
+Header {
+	background-color: #000B58;	
+	color: #ffffff;
+	padding: 15px;
+}
+
+h1 {
+	font-family: Georgia, serif;
+}
+
+#middle {
+	color:#FFFFFF;
+	text-align: center;
+}
+
+.foot {
+	background-color: #D7D3BF;
+	color: #000000;
+}
+
+nav {
+	background-color: #000000;
+	color: #faf7ec;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px;
+}
+
+footer {
+	background-color: #1c2833;
+	font-size: .9em;
+	font-style: Italic;
+	color: white;
+	margin-top:auto;
+	padding: 10px;
+}
+
+Table,th,td {
+	border: 1px solid #cccccc;
+	border-spacing: 0;
+}
+
+table {
+	width: 100%;
+}
+
+tr {
+	color:#FFFFFF;
+}
+
+th {
+	font-family: Georgia, Serif;
+	background-color: #E6C767;
+}
+
+td, th {
+	padding: 10px;
+}
+
+.tblpic {
+	width: 200px;
+	height: auto;
+}
+
+* {
+	box-sizing: border-box;
+  }
+
+#team {
+	text-align: center;
+	background-color: #E6C767;
+	color: #000000;
+}
+
+.card {
+	background-color:#000B58;
+	color: white;
+    margin: 8px;
+}
+
+.columns {
+	float: left;
+	width: 33.3%;
+	padding: 8px;
+  }
+
+.email {
+	font-style: Italic;
+	Margin: 8px;
+	color: white;
+}
+.price {
+	list-style-type: none;
+	border: 1px solid #000000;
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+}
+  
+.price:hover {
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+  
+.price .header {
+	background-color: #111;
+	color: white;
+	font-size: 25px;
+}
+  
+.price li {
+	border-bottom: 1px solid #000000;
+	padding: 20px;
+	text-align: center;
+}
+  
+.price .grey {
+	background-color: #eee;
+	font-size: 20px;
+}
+
+#svgpic {
+	width: 250px;
+	height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+	.columns {
+	  width: 100%;
+}
+  
+html {
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+  
+.container {
+    padding: 0 16px;
+}
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.title {
+    color: grey;
+}
+  
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+}
